@@ -1,13 +1,11 @@
-import { Link } from 'react-router-dom';
 import React from 'react';
-import '../components/threeBodies';
+import Trisols from '../components/Trisols';
 
 export function Home(){
     return(
     <>
-        <h1>Hello World</h1>
-        <Link to="/">Home</Link>
-        <Link to="/arquivos">Arquivos</Link>
+        <h1>3 BODY PROBLEM</h1>
+        <Trisols/>
     </>
     );
 }
