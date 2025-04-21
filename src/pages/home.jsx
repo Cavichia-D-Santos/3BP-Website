@@ -3,9 +3,12 @@ import Trisols from '../components/Trisols';
 
 export function Home(){
     return(
-    <>
-        <h1>3 BODY PROBLEM</h1>
-        <Trisols/>
-    </>
+        <main className="fundo-3d">
+            <Trisols />
+            <div className="overlay">
+                <h1 className="title">3 BODY PROBLEM</h1>
+                <button>Iniciar</button>
+            </div>
+      </main>
     );
 }
