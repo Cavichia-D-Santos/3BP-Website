@@ -1,13 +1,47 @@
 /*@import "tailwindcss";*/
+
 html, body, #root {
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
-.canvas-trisols{
+@font-face {
+  font-family: 'NeuePlak';
+  src: url("../public/fonts/Neue_Plak/Neue\ Plak\ Regular.ttf") format('truetype');
+}
+
+.fundo-3d {
+  position: relative;
   width: 100%;
   height: 100vh;
+  overflow: hidden;
+}
+
+.canvas-trisols{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  font-family: 'NeuePlak', monospace, sans-serif;
 }
 
 /*:root {
