@@ -1,4 +1,4 @@
-/*@import "tailwindcss";*/
+@import "tailwindcss";
 
 html, body, #root {
   height: 100%;
@@ -42,6 +42,11 @@ html, body, #root {
 
 .title{
   font-family: 'NeuePlak', monospace, sans-serif;
+}
+
+.Card-style{
+  display: inline-block;
+  margin: 15px;
 }
 
 /*:root {

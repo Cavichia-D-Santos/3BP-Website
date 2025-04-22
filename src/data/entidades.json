@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "categoria": "personagem",
+        "nome": "Ye Wenjie",
+        "imagem": "/imagens/personagens/ye_wenjie.png"
+    },
+
+    {
+        "id": 2,
+        "categoria": "personagem",
+        "nome": "Zang Heihai",
+        "imagem": "/imagens/personagens/ye_wenjie.png"
+    }
+]
